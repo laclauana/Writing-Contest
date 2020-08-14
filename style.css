@@ -297,11 +297,12 @@ body::-webkit-scrollbar-thumb:hover {
     .animation {
         display: flex;
         flex-wrap: wrap;
-        font-size: 35px;
-        animation: typing 4s steps(30);
+        font-size: 30px;
+        animation: typing 4s steps(35);
         animation-iteration-count: infinite;
         overflow: hidden;
-	    white-space: nowrap;
+        white-space: nowrap;
+        padding: 5px;
     
     }
 
@@ -329,9 +330,8 @@ body::-webkit-scrollbar-thumb:hover {
         display: flex;
         border: white dotted 2px;
         border-radius: 10px;
-
-        font-size: 20px;
-      
+        max-width: 50px;
+        font-size: 18px;
         box-shadow: whitesmoke;
        
     }
@@ -350,6 +350,18 @@ body::-webkit-scrollbar-thumb:hover {
         align-items: center;
         border: white dotted 2px;
         border-radius: 10px;
+    }
+
+    p .content {
+        font-size: 85px;
+    }
+
+        #motivation .content {
+            font-size: 80px;
+        }
+
+    .icons {
+        display: flex;
     }
 
 }
