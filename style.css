@@ -297,12 +297,12 @@ body::-webkit-scrollbar-thumb:hover {
     .animation {
         display: flex;
         flex-wrap: wrap;
-        font-size: 30px;
+        font-size: 28px;
         animation: typing 4s steps(35);
         animation-iteration-count: infinite;
         overflow: hidden;
         white-space: nowrap;
-        padding: 5px;
+        padding-left: 2px;
     
     }
 
@@ -316,7 +316,7 @@ body::-webkit-scrollbar-thumb:hover {
     }
 
     p .content:hover {
-        font-size: 120px;
+        font-size: 97px;
         cursor: url('./assets/favicon-32x32.png'), auto;
     }
 
