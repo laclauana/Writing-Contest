@@ -270,6 +270,11 @@ body::-webkit-scrollbar-thumb:hover {
         font-size: 85px;
     }
 
+    p .content:hover {
+        font-size: 95px;
+        cursor: url('./assets/favicon-32x32.png'), auto;
+    }
+
     .bottom-tool-bar a {
         display: flex;
         max-height: 60%;
@@ -309,7 +314,12 @@ body::-webkit-scrollbar-thumb:hover {
         margin-left: 15px;
     }
 
-.footer {
+    p .content:hover {
+        font-size: 120px;
+        cursor: url('./assets/favicon-32x32.png'), auto;
+    }
+
+    .footer {
     border-color: transparent;
     display: flex;
     justify-content: center;
