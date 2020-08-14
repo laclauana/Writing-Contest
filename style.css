@@ -338,15 +338,16 @@ body::-webkit-scrollbar-thumb:hover {
 
     .tool-bar li {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         min-width: 25%;
         margin-right: 25px;
     }
 
     .bottom-tool-bar a {
         display: flex;
-        max-height: 60%;
-        max-width: 65%;
+        min-height: 80%;
+        min-width: 80%;
+       
         align-items: center;
         border: white dotted 2px;
         border-radius: 10px;
