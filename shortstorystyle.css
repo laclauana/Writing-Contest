@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+body {
+    background-image: url("https://i.pinimg.com/originals/b1/cd/36/b1cd36614ed294ba79e0eb774b7742d4.gif");
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    font-family: 'Caveat';
+    cursor: url('./assets/favicon-32x32.png'), auto;
+}
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 85px;
+}
+
+p::selection {
+    background-color: turquoise;
+}
+
+h1::selection {
+    background-color: yellowgreen;
+    color: darkblue;
+}
+
+.button {   
+    display: flex;
+    justify-content: flex-end;    
+    padding: 10px;
+    margin-top: 50px;
+    }
+
+button {
+    padding: 10px;
+    margin: 15px;
+    cursor: url('./assets/favicon-32x32.png'), auto;
+    background-color: transparent;
+    border-radius: 50px;
+}
+a {
+     display: flex;
+    justify-content: flex-end;
+    font-family: 'Amatic SC';
+    text-decoration: none;
+    text-align: center;
+    font-size: 60px;
+    background-image: url("https://thumbs.gfycat.com/AccomplishedGleamingAmoeba-size_restricted.gif");
+	color: transparent;
+    -webkit-background-clip: text;  
+    border-radius: 80px;
+    cursor: url('./assets/favicon-32x32.png'), auto;
+}
+
+a:hover {
+    font-size: 70px;
+    cursor: url('./assets/favicon-32x32.png'), auto;
+}
+
+body::-webkit-scrollbar {
+	background-color: rgb(74, 71, 80);
+	border-radius: 4px;
+	box-shadow: inset 0 0 12px white;
+}
+
+body::-webkit-scrollbar-thumb {
+	background: rgb(15, 11, 37);
+	border-radius: 3px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+	background: rgb(32, 26, 68);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+.shortstory {
+    font-size: 45px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+@media (min-width: 600px) and (max-width: 900px) { 
+      .container {
+        background-image: url("https://i.pinimg.com/originals/b1/cd/36/b1cd36614ed294ba79e0eb774b7742d4.gif");
+        background-attachment: fixed;
+        background-size: cover;
+      }
+    
+    .shortstory {
+        margin: 0;
+        text-align: center;
+    }
+    .button {
+        margin-top: 100px;
+      }
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 65px;
+  }
+
+  .container {
+    background-image: url("https://i.pinimg.com/originals/b1/cd/36/b1cd36614ed294ba79e0eb774b7742d4.gif");
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  .shortstory {
+   margin: 0;
+    text-align: center;
+  }
+
+  .button {
+    margin-top: 100px;
+  }
+
+}
