@@ -10,4 +10,4 @@ HTML and CSS so far.
 
 ### Where to check on my short story website
 
-[https://anaclette.github.io/Writing-contest/]
+[https://anaclette.github.io/Writing-Contest/]
